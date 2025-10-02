@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LA CAPIROTADA CR</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <header>
+        <h1>La Capirotada CR</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos">
+            <button>Buscar</button>
+        </div>
+    </header>
+
+    
+    <nav id="navbar">
+        <a href="HOMBRES.HTML">Hombres</a>
+        <a href="MUJERES.HTML">Mujeres</a>
+        <a href="ACCESORIOS.HTML">Accesorios</a>
+        <a href="OFERTAS.HTML">Ofertas</a>
+        <a href="https://api.whatsapp.com/send?phone=TUNUMERO" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </nav>
+
+    <!--intento menu hamb-->
+    <nav>
+        <div class="special-item">
+            <div class="menu-horizontal">
+                
+            </div>
+        </div>
+        <a href="#" id="productosBtn">Productos</a>
+        <div class="productos-dropdown">
+            <ul class="menu-vertical" id="productosMenu">
+                <li><a href="masv.html">Destacados</a></li>
+                <li><a href="INDEX.HTML">Nuevos</a></li>
+                <li><a href="Outlet.HTML">Outlet</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- SLIDE IMÁGENES -->
+    <div class="image-slider">
+        <img src="img/ACCESORIOS/PARCHE3.webp">
+        <img src="img/ACCESORIOS/PARCHE2.webp">
+        <img src="IMG/HOMBRES/GALA.JPG" alt="Imagen 1">
+        <img src="imG/ACCESORIOS/RELOJ.jpg" alt="Imagen 2">
+        <img src="iMG/HOMBRES/CAMISACASUAL.jpg" alt="Imagen 3">
+        <img src="img/ACCESORIOS/setRELOJ.jpg" alt="Oferta 2">
+    </div>
+
+    <div class="color-divider">Lo mas nuevo</div>
+
+        <!-- Producto 1 --> 
+        
+        <div class="product-container">
+        <div class="product">
+            <img src="img/hombres/camisacasual.jpg" alt="Producto para Hombres 1">
+            <h3 class="product-title">Camisa Casual</h3>
+            <div class="product-info">
+                <p>Ropa elegante para hombres.</p>
+               
+            </div> 
+            <p class="product-price">$299</p>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="product">
+            <img src="img/hombres/gala.jpg" alt="Producto para Hombres 2">
+            <h3 class="product-title">Traje de Gala</h3>
+            <div class="product-info">
+                <p>Playera vintage de las poderosas águilas</p>
+           
+            </div>   
+              <p class="product-price">$1500</p>
+        </div>
+
+        <!-- Más productos... -->
+
+        <!-- Producto 3 (para Mujeres) -->
+        <div class="product">
+            <img src="img/MUJERES/vestido.jpg" alt="Producto para Mujeres 1">
+            <h3 class="product-title">Vestido Floral</h3>
+            <div class="product-info">
+                <p>Vestido elegante para mujeres.</p>
+               
+            </div> 
+            <p class="product-price">$999</p>
+        </div>
+
+        <!-- Producto 4 (para Mujeres) -->
+        <div class="product">
+            <img src="img/MUJERES/jersey.jpg" alt="Producto para Mujeres 2">
+            <h3 class="product-title">JERSEY PUNTO OCHOS MANGA DOBLE</h3>
+            <div class="product-info">
+                <p>Jersey de cuello redondo y manga larga doble.</p>
+            </div>
+            <p class="product-price">$899</p>
+        </div>
+
+        <!-- Más productos... -->
+     
+        <div class="product" onmouseover="showImage('img/accesorios/bolso2.jpg')" onmouseout="showImage('img/ACCESORIOS/bolso.jpg')">
+            <img src="img/ACCESORIOS/bolso.jpg" alt="Imagen 1" id="productImage">
+            <h3 class="product-title">Cadena de Platino Blanco Tejido Franco</h3>
+            <div class="product-info">
+                <p>Bolso tipo bandolera. Grabado en el corte</p>
+            </div>
+            <p class="product-price">$999</p>
+        </div>
+        
+
+        <!-- Producto 6 (Accesorios) -->
+        <div class="product">
+            <img src="img/ACCESORIOS/guts.jpg" alt="Plyera anime ">
+            <h3 class="product-title">Playera bordada </h3>
+            <div class="product-info">
+                <p>Playera guts berserk</p>
+            </div>
+            <p class="product-price">$299</p>
+        </div>
+
+        <!-- Más productos... -->
+
+        <!-- Producto 7 (Ofertas) -->
+        <div class="product">
+            <img src="img/varios/set playeras.avif" alt="Oferta 1">
+            <h3 class="product-title">Oferta Especial!!</h3>
+            <div class="product-info">
+                <p>¡Descuentos increíbles por tiempo limitado!
+                    set playeras basic diferentes colores
+                </p>
+               
+            </div> 
+            <p class="product-price">$1999</p>
+        </div>
+
+        <!-- Producto 8 (Ofertas) -->
+        <div class="product">
+            <img src="img/ACCESORIOS/setRELOJ.jpg" alt="Oferta 2">
+            <h3 class="product-title">
+                Box set reloj Mass Market </h3>
+            <div class="product-info">
+                <p>Este set de regalo para hombre Folio incluye un reloj de pulsera de spray negro de tres agujas de 50 mm, con un brazalete de cuentas elástico negro y un pequeño brazalete de corbata trenzado negro, un brazalete de cuentas negro adicional y una multiherramienta negra y plateada.</p>
+            </div>
+            <p class="product-price">$999</p>
+        </div>
+
+        <!-- Más productos... -->
+    </div>
+
+    <!-- Agrega más productos según sea necesario -->
+
+  
+    <!-- Contenido adicional -->
+  
+    <script src="scripts.js"></script>
+    <!--footer><img src="img/varios/pago.png" alt=pago></footer-->
+
+</body>
+
+<img src="img/varios/pago.png" alt="Métodos de Pago">
+
+</html>
